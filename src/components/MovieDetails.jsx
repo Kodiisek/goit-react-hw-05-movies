@@ -1,6 +1,6 @@
 // MovieDetails.jsx
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Cast from './Cast';
 import Reviews from './Reviews';
 
