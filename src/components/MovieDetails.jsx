@@ -6,7 +6,6 @@ import Reviews from './Reviews';
 
 const MovieDetails = () => {
   const { movieId } = useParams();
-  const navigate = useNavigate();
   const [movieDetails, setMovieDetails] = useState(null);
   const [showCast, setShowCast] = useState(false);
   const [showReviews, setShowReviews] = useState(false);
