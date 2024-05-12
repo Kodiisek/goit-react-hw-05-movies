@@ -1,8 +1,8 @@
 // MovieDetails.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Cast from './Cast';
-import Reviews from './Reviews';
+import Cast from '../Cast/Cast';
+import Reviews from '../Reviews/Reviews';
 
 const MovieDetails = () => {
   const { movieId } = useParams();
